@@ -1,0 +1,82 @@
+.main-bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-container {
+  background-color: #3367d6;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.history-logo {
+  height: 30px;
+  margin: 0 25px;
+}
+
+.search-bar-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon-input-container {
+  display: flex;
+  align-items: center;
+  background-color: #2850a7;
+  border-radius: 5px;
+}
+
+.search-icon-container {
+  border: 1px solid #ececec;
+  border-radius: 5px 0px 0px 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-field {
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ececec;
+  border-left: none;
+  border-radius: 0px 5px 5px 0px;
+  padding: 15px 15px 14px 15px;
+  width: 400px;
+  outline: none;
+}
+
+.history-bg-container {
+  flex-grow: 1;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.browser-items-list {
+  align-self: flex-start;
+  box-shadow: 0px 0px 8px #64748b;
+  padding-left: 0;
+  min-width: 80%;
+}
+
+.no-history-message {
+  color: #64748b;
+  font-size: 28px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .input-field {
+    width: 90%;
+  }
+
+  .browser-items-list {
+    min-width: 90%;
+  }
+}
